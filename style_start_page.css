@@ -1,0 +1,204 @@
+.header_title {
+  background-image: url(/img/setka-polosy-fon.jpg);
+  text-align: center;
+  padding: 50px 0 50px 0;
+  margin: 0;
+  color: #fff;
+  font-size: 45px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.article {
+  background-image: url(/img/first_bg.jpg);
+  padding: 0 0 300px 0;
+}
+.form {
+  position: relative;
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.form_input_login,
+.form_input_password {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  margin-bottom: 16px;
+  padding: 8px 16px;
+  /*transition: transform 0.3s ease-out;*/ /*  не понятно мне */
+  border: none;
+  border-radius: 15px;
+  outline: none;
+  background-color: #fff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.5em;
+  font-weight: 300;
+}
+.white {
+  margin: 0;
+  padding: 20px;
+  font-size: 25px;
+  font-family: "Montserrat", sans-serif;
+}
+
+/*.form_input_login::-webkit-input-placeholder,
+.form_input_password::-webkit-input-placeholder {
+  opacity: 0.6;
+  color: black;
+}*/
+
+.form_input_password:focus,
+.form_input_login:focus {
+  transition: transform 0.3s ease-out;
+  transform: scale(1.02, 1.02);
+}
+
+.form_button {
+  display: inline-block;
+  padding: 12px 32px;
+  transition: all 0.3s ease-out;
+  text-transform: uppercase;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  background-color: #02f;
+  background-clip: border-box;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+.form_button:hover {
+  transition: all 0.3s ease-out;
+  transform: scale(1.02, 1.02);
+  box-shadow: rgba(255, 255, 255, 0.3) 0 0 16px 2px;
+}
+
+.prompty {
+  font-size: 20px;
+  color: dimgray;
+  margin-top: 0;
+}
+
+.message-null {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #00000050;
+  z-index: 130;
+}
+
+.message-null-body {
+  position: relative;
+  margin: auto;
+  width: 1024px;
+  min-height: 200px;
+  max-height: 640px;
+  background-color: #fff;
+  padding: 25px;
+  overflow: auto;
+  border-radius: 3px;
+}
+
+.message-null-title {
+  font-size: 28px;
+  color: #4d5f71;
+}
+
+.message-null-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin: 25px auto 25px auto /*25px 0*/;
+  border: 1px solid #4d5f713f;
+  border-radius: 3px;
+  /*padding: 20px;*/
+  background-image: url(/img/ou960.jpg);
+  /*background-color: #02f;*/
+  background-size: 100% 100%;
+  width: 300px;
+  height: 300px;
+}
+
+.message-null-total {
+  font-size: 18px;
+}
+
+.message-null-total span {
+  color: #077c24;
+}
+
+.message-null-close {
+  display: block;
+  margin-left: auto;
+}
+
+.message-error {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #00000050;
+  z-index: 130;
+}
+
+.message-error-body {
+  position: relative;
+  margin: auto;
+  width: 1024px;
+  min-height: 200px;
+  max-height: 640px;
+  background-color: #fff;
+  padding: 25px;
+  overflow: auto;
+  border-radius: 3px;
+}
+
+.message-error-title {
+  font-size: 28px;
+  color: #4d5f71;
+}
+
+.message-error-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin: auto /*25px 0*/;
+  border: 1px solid #4d5f713f;
+  border-radius: 3px;
+  /*padding: 20px;*/
+  background-image: url(/img/LOL.jpg);
+  background-size: 100% 100%;
+  width: 300px;
+  height: 300px;
+}
+
+.message-error-total {
+  font-size: 18px;
+}
+
+.message-error-total span {
+  color: #077c24;
+}
+
+.message-error-close {
+  display: block;
+  margin-left: auto;
+}

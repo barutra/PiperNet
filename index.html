@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Хорошего дня!</title>
+    <link rel="stylesheet" href="/style_start_page.css" />
+    <script src="/rule.js" defer></script>
+  </head>
+  <body>
+    <h1 class="header_title">Good morning!</h1>
+    <article class="article">
+      <p class="white">
+        Для просмотра содержимого, пожалуйста, войдите в систему.
+      </p>
+      <blockquote class="prompty">
+        Подсказка: логин: Admin, пароль: qazwsx
+      </blockquote>
+      <form name="contact" class="form">
+        <input
+          type="id"
+          class="form_input_login"
+          name="log_name"
+          placeholder="Логин"
+        />
+        <input
+          type="password"
+          class="form_input_password"
+          name="pass_name"
+          placeholder="Пароль"
+        />
+        <button id="btn" class="form_button" type="button">Отправить</button>
+      </form>
+    </article>
+  </body>
+  <!-- Окно при пустых данных -->
+  <div class="message-null">
+    <div class="message-null-body">
+      <div class="message-null-title">Не все поля заполнены</div>
+      <div class="message-null-wrapper"></div>
+      <button class="message-null-close" id="ClsMes">
+        Повторить ввод данных
+      </button>
+    </div>
+  </div>
+  <!-- Окно при неверных данных -->
+  <div class="message-error">
+    <div class="message-error-body">
+      <div class="message-error-title">Неверный логин или пароль</div>
+      <div class="message-error-wrapper"></div>
+      <button class="message-error-close" id="ClsMess">
+        Повторить ввод данных
+      </button>
+    </div>
+  </div>
+</html>
